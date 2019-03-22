@@ -1,0 +1,100 @@
+
+#scoreArea {
+    visibility: hidden;
+    position: absolute;
+    font-size: 4vmin;
+    top: 0;
+    left: 0;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+#dialogArea {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#digitDisplayArea {
+    display: none;
+    position: absolute;
+    width: 50vmin;
+    height: 50vmin;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#targetDisplayArea {
+    display: none;
+    position: absolute;
+    left: calc(50vw + 25vmin + 1px);
+    top: calc(25vh + 25vh - 25vmin);
+    padding: auto;
+}
+
+#digitDisplayP {
+    font-size: 20vmin;
+    line-height: 50vmin;
+}
+
+#feedbackTextArea {
+    font-size: 6vmin;
+}
+
+#feedbackTextDiv {
+    position: absolute;
+    top: calc(50vh + 30vmin);
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.dialog {
+    font-size: 4vmin;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+}
+
+.targetDisplayP {
+    font-size: 4vmin;
+    margin-top: 1vmin;
+    margin-bottom: 4vmin;
+    margin-left: 2vmin;
+}
+
+p {
+	font-family: verdana;
+	margin-top: 0vh;
+	margin-bottom: 0vh;
+    max-width: 75vw;
+}
+
+div {
+    margin-top: 0vh;
+	margin-bottom: 0vh;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 2vmin 2vmin;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 4vmin;
+	font-family: verdana;
+	width: auto;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #e5e5e5;
+}
+
+center {
+    width: 100vw;
+}

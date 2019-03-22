@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    </head>
+        <body>
+
+        <p id='scoreArea'>Score: 0</p>
+        <div id='dialogArea'>
+            <center>
+                <p class='dialog'>
+                    You will see a series of digits.<br/>
+                    Press the space bar once you've seen the following sequence<br/>
+                    (i.e. press space as soon as you see the last digit):</br><br/>
+                    3 5 7<br/><br/>
+                    React as fast as you can, but avoid making mistakes.<br/>
+                    During the practice round, you'll know when you start seeing the sequence because the digits will be coloured and underlined.
+                </p>
+                <button onclick='start()'>Start practice</button>
+            </center>
+        </div>
+        <center>
+            <div id='digitDisplayArea'>
+                <p id='digitDisplayP'></p>
+            </div>
+        </center>
+        <div id='targetDisplayArea'>
+            <p class='targetDisplayP'>357</p>
+            <p class='targetDisplayP'>246</p>
+            <p class='targetDisplayP'>468</p>
+        </div>
+        <div id='feedbackTextDiv'>
+            <center>
+                <p id='feedbackTextArea'></p>
+            </center>
+        </div>
+    </body>
+	<script src="../commonFunctions.js"></script>
+    <script src='run.js'></script>
+</html>
+
