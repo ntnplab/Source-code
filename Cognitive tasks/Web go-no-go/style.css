@@ -1,0 +1,100 @@
+center {
+    max-width: 75vw;
+}
+
+p {
+	font-family: verdana;
+	margin-top: 0vh;
+	margin-bottom: 0vh;
+    max-width: 75vw;
+}
+
+.stim {
+	font-size: 8vw;
+	margin-top: 0.1vh;
+	margin-bottom: 0.1vh;
+}
+
+.dialog {
+	font-size: 4vmin;
+}
+
+button {
+	background-color: white;
+	margin: 1vw 1px;
+	border: 1px solid black;
+	color: black;
+	padding: 2vmin 2vmin;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 4vmin;
+	font-family: verdana;
+	width: auto;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #e5e5e5;
+}
+.colourButton {
+	display: inline;
+}
+input[type=text], select {
+    width: 4vw;
+    padding: 0vw 0.5vw;
+    margin: 1vw 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size: 4vw;
+	text-align: center;
+}
+
+#pointsBarHolder {
+    position: absolute;
+    margin: 0;
+    top: 5vh;
+    left: 5vw;
+    height: 90vh;
+    width: 3vw;
+}
+
+#pointsBar {
+    display: none;
+    position: relative;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#scoreArea {
+    position: absolute;
+    font-size: 4vmin;
+    top: 0;
+    left: 0;
+    margin-left: 2vw;
+	display: none;
+}
+
+#textArea {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#buttonArea {
+    position: absolute;
+    margin: 0;
+    width: 99vw;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+#dialogArea {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
