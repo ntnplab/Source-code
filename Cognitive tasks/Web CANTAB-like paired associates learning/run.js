@@ -9,22 +9,15 @@ var startTheta = 0; //Math.PI/2;
 // NOTE: no elements in nTargs can exceed nCanvs
 var masterTrialwise_nTokens = [1,2,3,3,6,8];// Each element is the number of targets to show for a trial
 var masterTrialwise_nCanvs = [6,6,6,6,6,8];// Number of places for tokens to appear
-var nTokenFrames = 180;
 var tokenMs = 3000;
 var presentationTime;
 var reactionTimes = [];
-var nBlanksBetweenTokens = 30;
 var interTokenMs = 500;
-var nBlanksAfterLastToken = 30;
 var postTrialMs = 500;
-var nInitialBlankFrames = 60;
 var preTrialTextMs = 2000;
 var preTrialMs = 1000;
-var nInitialTextFrames = 120;
-var nFeedbackFrames = 120; 
 var feedbackMs = 2000;
 var postTestMs = 500;
-var nIncorrectFrames = 120; // Number of frames subject is told they are incorrect and to try again
 var filledProb = 0.2;//0.35;//6/9;
 // var tokenPxlSz = [Math.round(getCanvDims().h/12),Math.round(getCanvDims().h/12)]; // Size of token pixels in real pixels [width,height]
 var xRange = [2,3,4,5,6,7];
