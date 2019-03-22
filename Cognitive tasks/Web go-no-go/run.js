@@ -244,7 +244,6 @@ function postPracticeScreen() {
 }
 
 function saveDataAndRedirect(filename, txt, pID) {
-    filename = 'Data/' + filename;
 	var form = document.createElement('form');
     document.body.appendChild(form);
     form.method = 'post';

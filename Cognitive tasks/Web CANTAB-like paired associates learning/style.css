@@ -1,0 +1,51 @@
+#masterDiv {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+.testCanv {
+	border: 0px;
+}
+.tokenCanv {
+	border: 1px solid #000000;
+	cursor: pointer
+}
+button {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 2vmin 2vmin;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 4vmin;
+	font-family: verdana;
+	width: auto;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #e5e5e5;
+}
+.dialog {
+	font-size: 4vmin;
+}
+p {
+    font-family: verdana;
+	font-size: 4vmin;
+}
+.score {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+	font-family: verdana;
+	font-size: 4vmin;
+	visibility: hidden;
+}
+#instructions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
