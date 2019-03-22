@@ -1,0 +1,76 @@
+p {
+	font-family: verdana;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+.numbers {
+	font-size: 20vmin;
+	display: none;
+	margin-top: 0.1vh;
+	margin-bottom: 0.1vh;
+}
+.dialog {
+	font-size: 4vmin;
+}
+#dialogArea{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#numberDisplayArea{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#inputArea{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#scoreArea {
+	font-size: 4vmin;
+    position: absolute;
+	visibility: hidden;
+}
+#bigBr {
+	visibility: hidden;
+	line-height: 35vh;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.replay {
+	font-size: 8vmin;
+}
+button {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 2vmin 2vmin;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 4vmin;
+	font-family: verdana;
+	width: auto;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #e5e5e5;
+}
+input[type=text], select {
+    width: 8vmin;
+    padding: 0vw 0vw;
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size: 8vmin;
+	text-align: center;
+}

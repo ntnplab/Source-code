@@ -1,12 +1,12 @@
 
-var ALL = document.getElementsByTagName("html")[0];
-var dialogArea = document.getElementById("dialogArea");
-var textArea = document.getElementById("textArea");
-
 var filename; // Code to get filename for data file goes here
 // E.g. var filename = new URL(window.location.href).searchParams.get("filename");
 var pID; // Code to get participant ID goes here
 // E.g. var pID = new URL(window.location.href).searchParams.get("pID");
+
+var ALL = document.getElementsByTagName("html")[0];
+var dialogArea = document.getElementById("dialogArea");
+var textArea = document.getElementById("textArea");
 
 var goInstructions = 'As soon as you see a letter other than "X", press the space bar or tap your touch screen if you have one. React as quickly as you can.';
 var noGoInstructions = 'When you see "X", do not do anything.';

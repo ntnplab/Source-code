@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <p id="scoreArea">Score: 0</p>
+        <center>
+            <div id="dialogArea">
+                <p class="dialog">In this game, you will be shown a series of digits<br/>
+                                  and then asked to type them <span style='color:blue'>IN REVERSE</span>.</p>
+                <button onclick="startPractice()">Start practice</button>
+            </div>
+            <p id="numberDisplayArea" class="numbers"></p>
+            <div id="inputArea" style="display: none;">
+                <p class="dialog"></p>
+                <div id="fieldArea">
+                    <input type="text" maxlength="1" onkeydown="move()" oninput="autotab()"></input>
+                </div>
+                <button id='submitButton' onclick="evaluateSubmission()">Submit</button>
+            </div>
+        </center>
+    </body>
+	<script src="../commonFunctions.js"></script>
+    <script src="run.js"></script>
+</html>
